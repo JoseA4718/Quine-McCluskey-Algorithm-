@@ -23,7 +23,7 @@ if __name__ == '__main__':
         binary_array = Quine_McCluskey.to_binary(array)
         binary_array.sort()
         grouped_array = Quine_McCluskey.group_1s(binary_array)
-        grouped_array.sort(key=lambda x: x[0])
+        grouped_array.sort()
         prime_implicants = Quine_McCluskey.prime_implicant_search(grouped_array)
         prime_implicants = Quine_McCluskey.remove_repeated(prime_implicants)
         essential_prime_implicants = Quine_McCluskey.essential_implicant_search(prime_implicants)
