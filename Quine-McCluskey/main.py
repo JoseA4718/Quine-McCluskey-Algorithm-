@@ -17,5 +17,5 @@ if __name__ == '__main__':
         print("Los minterminos puestos no son la misma cantidad ingresada al inicio")
 
     else:
-        Quine_McCluskey.ToBinary(array)
+        Quine_McCluskey.to_binary(array)
 
